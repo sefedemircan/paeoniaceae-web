@@ -37,7 +37,7 @@ const theme = createTheme({
 });
 
 export const metadata = {
-  title: "Cassiopeia - Çiçek ve Bitki Mağazası",
+  title: "Paeoniaceae - Çiçek ve Bitki Mağazası",
   description: "Taze çiçekler ve bitkiler için en iyi seçim",
 };
 
