@@ -1,0 +1,21 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0 20px;
+}
+
+.footerLink {
+  color: #bbb;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+} 

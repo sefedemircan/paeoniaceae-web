@@ -1,0 +1,100 @@
+/* Desktop Header Styles */
+.desktopHeader {
+  display: flex;
+}
+
+.mobileHeader {
+  display: none;
+}
+
+.locationButton {
+  color: black;
+  transition: opacity 0.2s;
+}
+
+.locationButton:hover {
+  opacity: 0.8;
+}
+
+.iconButton {
+  transition: opacity 0.2s;
+}
+
+.iconButton:hover {
+  opacity: 0.8;
+}
+
+/* Desktop Navigation Bar */
+.desktopNavbar {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  background-color: white;
+  display: block;
+}
+
+.navLink {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.2s ease;
+  padding: 5px 0;
+}
+
+.navLink:hover {
+  color: #666;
+}
+
+/* Mobile Navigation */
+.mobileNavLink {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.2s ease;
+  padding: 12px 20px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 2px 0;
+  width: 100%;
+  display: block;
+}
+
+.mobileNavLink:hover {
+  color: #000;
+  background-color: #f8f9fa;
+}
+
+.mobileLocation {
+  margin-top: 15px;
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+/* Responsive Breakpoints - Mantine md breakpoint (768px) */
+@media (max-width: 64em) {
+  .desktopHeader {
+    display: none;
+  }
+  
+  .mobileHeader {
+    display: flex;
+  }
+  
+  .desktopNavbar {
+    display: none;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  .desktopHeader {
+    display: flex;
+  }
+  
+  .mobileHeader {
+    display: none;
+  }
+  
+  .desktopNavbar {
+    display: block;
+  }
+} 

@@ -1,0 +1,127 @@
+.bannerContainer {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+.banner {
+  background-image: url('https://res.cloudinary.com/didlxgowc/image/upload/f_auto,c_limit,w_3840,q_auto/cass15_mrg4hb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.bannerContent {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  padding: 0 40px;
+}
+
+.textContent {
+  max-width: 450px;
+  position: relative;
+  z-index: 2;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.button {
+  max-width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #000 !important;
+  color: white !important;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+.button:hover {
+  background-color: #333 !important;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 300px;
+  z-index: 1;
+}
+
+.bannerImage {
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bannerContainer {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  
+  .banner {
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .textContent {
+    max-width: 100%;
+    gap: 12px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .button {
+    max-width: 140px;
+    height: 36px;
+    font-size: 13px;
+  }
+} 
