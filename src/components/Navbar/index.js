@@ -51,7 +51,7 @@ export default function CustomNavbar({ children, footer }) {
 
               <Link href="/" style={{ textDecoration: 'none' }}>
                 <Text fw={700} size="xl" ta="center" c="black">
-                  CASSIOPEIA
+                Paeoniaceae
                 </Text>
               </Link>
 
@@ -77,7 +77,7 @@ export default function CustomNavbar({ children, footer }) {
               
               <Link href="/" style={{ textDecoration: 'none' }}>
                 <Text fw={700} size="lg" ta="center" c="black">
-                  CASSIOPEIA
+                Paeoniaceae
                 </Text>
               </Link>
               
